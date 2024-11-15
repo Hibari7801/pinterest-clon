@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pinterest</title>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <!-- En este caso lo primero que hacemos es poner el ícono con el enlace a la página principal -->
+        <nav>
+            <!-- Icono para inicio -->
+            <a href="https://mx.pinterest.com"><img id="pin_icon" src="assets/Pinterest_Icon.webp" alt="icon pinterest"></a>
+            <!-- Iconos de la izquierda -->
+            <div class="left items">
+                <ul class="first-list">
+                    <!-- Ponemos un id a cada uno de los botones -->
+                    <li><a id="inicio" href="">Inicio</a></li>
+                    <li><a id="explorar" href="">Explorar</a></li>
+                    <li><a id="crear" href="">Crear</a></li>
+                </ul>
+            </div>
+            <!-- Barra de busqueda -->
+            <div class="search">
+                <!-- Creamos dos div dentro de este elemento porque la entrada de texto es un input, pero como queremos que sea más agradable a la vista crearemos una mascara que nos dejara cambiar los estilos de esta barra input -->
+                <div class="barra">
+                    <span id="lupa" class="material-symbols-outlined">
+                        search
+                    </span>
+                    <!-- placeholder nos va a ayudar a poner dentro del input un texto -->
+                    <input type="text" placeholder="Buscar">
+                </div>
+            </div>
+            <!-- Iconos de la derecha -->
+            <div class="right-items">
+                <!-- Para colocar los iconos ya solo se necesita poner los span que aparecen en la página de icons de google, ya que pusimos el link en el head -->
+                <!-- span es para poner elementos como iconos o imagenes, son cajitas para el icono y sirve para que el navegador identifique correctamente el elemento, los span tienden a ponerse uno al lado del otro, mientras que el div se ponen uno abajo de otro -->
+                <span class="material-symbols-outlined">
+                    notifications
+                </span>
+                <span class="material-symbols-outlined">
+                    sms
+                </span>
+                <span class="material-symbols-outlined">
+                    account_circle
+                </span>
+                <span class="material-symbols-outlined">
+                    keyboard_arrow_down
+                </span>
+            </div>
+        </nav>
+    </header>
+    <!-- Parte más importante del código -->
+    <main class="contenido">
+        <div class="imagenes">
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/1.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/2.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/3.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/4.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/5.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/6.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/7.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/8.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/9.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/10.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/11.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/12.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/13.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/14.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/15.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/16.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/17.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/18.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/19.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/20.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/21.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/22.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/23.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/24.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/25.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/26.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/27.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/28.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/29.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+            <!-- Card -->
+            <div class="card-image">
+                <img src="assets/30.jpg" alt="" class="img">
+                <button class="button">
+                    <a href="#">Guardar</a> <!-- ponemos un # para links muertos, links que todavía faltan por agregar-->
+                </button>
+                <span class="material-symbols-outlined oculto1"> upload </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
+            </div>
+            <!-- fin card -->
+        </div>
+    </main>
+</body>
+
+</html>
